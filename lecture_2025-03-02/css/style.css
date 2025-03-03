@@ -1,0 +1,46 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #################### */
+
+/* color section */
+.color-section{
+    width: fit-content;
+    margin: 20px auto;
+    border-bottom: 3px dashed #000;
+    padding-bottom: 10px;
+}
+.color-section h1{
+    text-align: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px;
+    text-align: center;
+    line-height: 200px;
+    display: inline-block;
+}
+.box span{
+    color:blue ;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    font-size: 1.5em;
+}
+.solid{
+    background-color: #748;
+}
+.gradient{
+    background: linear-gradient(45deg, #748 0%, #fa8  50%, #abc 100%);
+}
+.url{
+    background: url("/images/pattern.png");
+}
+/* #################### */
+::-webkit-scrollbar{
+    width: 30px;
+    background-color: pink;
+}
